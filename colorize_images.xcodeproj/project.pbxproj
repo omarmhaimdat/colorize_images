@@ -10,20 +10,26 @@
 		6CEF55D82529D7D900F4FF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF55D72529D7D900F4FF4B /* AppDelegate.swift */; };
 		6CEF55DA2529D7D900F4FF4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF55D92529D7D900F4FF4B /* SceneDelegate.swift */; };
 		6CEF55DC2529D7D900F4FF4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF55DB2529D7D900F4FF4B /* ViewController.swift */; };
-		6CEF55DF2529D7D900F4FF4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEF55DD2529D7D900F4FF4B /* Main.storyboard */; };
 		6CEF55E12529D7DA00F4FF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CEF55E02529D7DA00F4FF4B /* Assets.xcassets */; };
 		6CEF55E42529D7DA00F4FF4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEF55E22529D7DA00F4FF4B /* LaunchScreen.storyboard */; };
+		6CEF55EC2529D9EA00F4FF4B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF55EB2529D9EA00F4FF4B /* CustomButton.swift */; };
+		6CEF55EE2529DA5900F4FF4B /* ColorizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF55ED2529DA5900F4FF4B /* ColorizeViewController.swift */; };
+		98955171777617B5EE930D01 /* Pods_colorize_images.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE849B87839A4AAD8379EB4 /* Pods_colorize_images.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48DC8333921AC9E40875FADE /* Pods-colorize_images.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorize_images.release.xcconfig"; path = "Target Support Files/Pods-colorize_images/Pods-colorize_images.release.xcconfig"; sourceTree = "<group>"; };
 		6CEF55D42529D7D900F4FF4B /* colorize_images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorize_images.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CEF55D72529D7D900F4FF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CEF55D92529D7D900F4FF4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6CEF55DB2529D7D900F4FF4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6CEF55DE2529D7D900F4FF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CEF55E02529D7DA00F4FF4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CEF55E32529D7DA00F4FF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CEF55E52529D7DA00F4FF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CEF55EB2529D9EA00F4FF4B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		6CEF55ED2529DA5900F4FF4B /* ColorizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizeViewController.swift; sourceTree = "<group>"; };
+		B60847D4FE7521067CE8266F /* Pods-colorize_images.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorize_images.debug.xcconfig"; path = "Target Support Files/Pods-colorize_images/Pods-colorize_images.debug.xcconfig"; sourceTree = "<group>"; };
+		EAE849B87839A4AAD8379EB4 /* Pods_colorize_images.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorize_images.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98955171777617B5EE930D01 /* Pods_colorize_images.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10CCD6ADC09E57E4C23F20F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAE849B87839A4AAD8379EB4 /* Pods_colorize_images.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6CEF55CB2529D7D900F4FF4B = {
 			isa = PBXGroup;
 			children = (
 				6CEF55D62529D7D900F4FF4B /* colorize_images */,
 				6CEF55D52529D7D900F4FF4B /* Products */,
+				C04CEEA3A65B6E1B0ED6FD14 /* Pods */,
+				10CCD6ADC09E57E4C23F20F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +76,23 @@
 				6CEF55D72529D7D900F4FF4B /* AppDelegate.swift */,
 				6CEF55D92529D7D900F4FF4B /* SceneDelegate.swift */,
 				6CEF55DB2529D7D900F4FF4B /* ViewController.swift */,
-				6CEF55DD2529D7D900F4FF4B /* Main.storyboard */,
 				6CEF55E02529D7DA00F4FF4B /* Assets.xcassets */,
 				6CEF55E22529D7DA00F4FF4B /* LaunchScreen.storyboard */,
 				6CEF55E52529D7DA00F4FF4B /* Info.plist */,
+				6CEF55EB2529D9EA00F4FF4B /* CustomButton.swift */,
+				6CEF55ED2529DA5900F4FF4B /* ColorizeViewController.swift */,
 			);
 			path = colorize_images;
+			sourceTree = "<group>";
+		};
+		C04CEEA3A65B6E1B0ED6FD14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B60847D4FE7521067CE8266F /* Pods-colorize_images.debug.xcconfig */,
+				48DC8333921AC9E40875FADE /* Pods-colorize_images.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CEF55E82529D7DA00F4FF4B /* Build configuration list for PBXNativeTarget "colorize_images" */;
 			buildPhases = (
+				2165F2C7965979C0ED3F4DEC /* [CP] Check Pods Manifest.lock */,
 				6CEF55D02529D7D900F4FF4B /* Sources */,
 				6CEF55D12529D7D900F4FF4B /* Frameworks */,
 				6CEF55D22529D7D900F4FF4B /* Resources */,
+				DF1B7361DE17FBB7A3E7A670 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,17 +156,60 @@
 			files = (
 				6CEF55E42529D7DA00F4FF4B /* LaunchScreen.storyboard in Resources */,
 				6CEF55E12529D7DA00F4FF4B /* Assets.xcassets in Resources */,
-				6CEF55DF2529D7D900F4FF4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2165F2C7965979C0ED3F4DEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-colorize_images-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1B7361DE17FBB7A3E7A670 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-colorize_images/Pods-colorize_images-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-colorize_images/Pods-colorize_images-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-colorize_images/Pods-colorize_images-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6CEF55D02529D7D900F4FF4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CEF55EC2529D9EA00F4FF4B /* CustomButton.swift in Sources */,
+				6CEF55EE2529DA5900F4FF4B /* ColorizeViewController.swift in Sources */,
 				6CEF55DC2529D7D900F4FF4B /* ViewController.swift in Sources */,
 				6CEF55D82529D7D900F4FF4B /* AppDelegate.swift in Sources */,
 				6CEF55DA2529D7D900F4FF4B /* SceneDelegate.swift in Sources */,
@@ -146,14 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6CEF55DD2529D7D900F4FF4B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6CEF55DE2529D7D900F4FF4B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6CEF55E22529D7DA00F4FF4B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +348,7 @@
 		};
 		6CEF55E92529D7DA00F4FF4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60847D4FE7521067CE8266F /* Pods-colorize_images.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +368,7 @@
 		};
 		6CEF55EA2529D7DA00F4FF4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48DC8333921AC9E40875FADE /* Pods-colorize_images.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
